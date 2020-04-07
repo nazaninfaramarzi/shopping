@@ -17,22 +17,22 @@
                                     <a class="nav-link" href="/">صفحه اصلی</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">درباره ما</a>
+                                    <a class="nav-link" href="about">درباره ما</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                    <a class="nav-link dropdown-toggle" href="blog" id="navbarDropdown_1"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         محصولات
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                        <a class="dropdown-item" href="product_list.html"> لیست محصولات</a>
-                                        <a class="dropdown-item" href="single-product.html">جزئیات محصولات</a>
+                                        <a class="dropdown-item" href="product_list"> لیست محصولات</a>
+                                        <a class="dropdown-item" href="single-product">جزئیات محصولات</a>
                                         
                                     </div>
                                 </li>
                                 @guest
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                    <a class="nav-link dropdown-toggle" href="blog" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         صفحات
                                     </a>
@@ -51,18 +51,67 @@
                                         @endif
                                         @else
                                         <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                        <a class="nav-link dropdown-toggle" href="blog" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         صفحات
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
                                    
+                                        
+                                        <a class="dropdown-item" href="checkout">چک کردن محصولات</a>
+                                        <a class="dropdown-item" href="cart">سبد خرید</a>
+                                        <a class="dropdown-item" href="confirmation">تایید نهایی</a>
+                                        <a class="dropdown-item" href="elements">جزئیات</a>
 
-                                        <a class="dropdown-item" href="checkout.html">چک کردن محصولات</a>
-                                        <a class="dropdown-item" href="cart.html">سبد خرید</a>
-                                        <a class="dropdown-item" href="confirmation.html">تایید نهایی</a>
-                                        <a class="dropdown-item" href="elements.html">جزئیات</a>
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                    </div>
+                                </li>
+                                @endguest
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog" id="navbarDropdown_2"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        وبلاگ
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="blog"> وبلاگ</a>
+                                        <a class="dropdown-item" href="single-blog">صفحه داخلی وبلاگ </a>
+                                    </div>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact">تماس با ما</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hearer_icon d-flex align-items-center">
+                            <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <a href="cart">
+                                <i class="flaticon-shopping-cart-black-shape"></i>
+                            </a>
+                            
+                          
+                            <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="blog" id="navbarDropdown_3"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">person</i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                   
+                                   <a class="dropdown-item" href="profile">
+                                   @guest
+                                   <a class="dropdown-item" href="login"> 
+                                            ورود
+                                            
+                                        </a>
+                                        @if (Route::has('register'))
+                                        <a class="dropdown-item" href="register"> 
+                                            ثبت نام
+                                            
+                                        </a>
+                                        @endif
+                                        @endguest
+                                        @auth
+                                    {{auth()->user()->name}}
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         خروج
@@ -71,30 +120,10 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-                                    </div>
-                                </li>
-                                @endguest
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        وبلاگ
+                                        @endauth
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="blog.html"> وبلاگ</a>
-                                        <a class="dropdown-item" href="single-blog.html">صفحه داخلی وبلاگ </a>
-                                    </div>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">تماس با ما</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="hearer_icon d-flex align-items-center">
-                            <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <a href="cart.html">
-                                <i class="flaticon-shopping-cart-black-shape"></i>
-                            </a>
+                                   </div>
+                                   </div>
                         </div>
                     </nav>
                 </div>

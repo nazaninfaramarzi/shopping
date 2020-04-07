@@ -17,13 +17,30 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome', ['name' => '']);
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::view('/about', 'about');
+Route::view('/single-blog', 'single-blog');
+Route::view('/product_list', 'product_list');
+Route::view('/single-product', 'single-product');
+Route::view('/elements', 'elements');
+Route::view('/contact', 'contact');
+Route::view('/confirmation', 'confirmation');
+Route::view('/checkout', 'checkout');
+Route::view('/cart', 'cart');
+
+
+
+
+
+
 
 Route::get('/date', function (){
     $date=new DateTime('+1 year -1 week');

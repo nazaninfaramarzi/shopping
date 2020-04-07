@@ -26,6 +26,9 @@ class LoginController extends Controller
      *
      * @var string
      */
+    // $roleid=$request->user()->role_id;
+    // $role=User::findOrFail($roleid);
+    
     protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
@@ -37,4 +40,6 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+
 }

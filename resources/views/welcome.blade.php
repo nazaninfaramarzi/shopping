@@ -13,7 +13,7 @@
                             <h1>بالاترین کیفیت
                                 بالش و کوسن</h1>
                             <p>تنوع در طرح و رنگ، انواع طبی و تزئینی</p>
-                            <a href="product_list.html" class="btn_1">همین الان خرید کنید</a>
+                            <a href="product_list" class="btn_1">همین الان خرید کنید</a>
                         </div>
                     </div>
                 </div>
@@ -42,8 +42,8 @@
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
                                     <h5>شروع قیمت از 50000 تومان</h5>
-                                    <h2> <a href="single-product.html"></a> کوسن مربعی طرح دار پر شده با الیاف مصنوعی</h2>
-                                    <a href="product_list.html" class="btn_3">امتحان کنید</a>
+                                    <h2> <a href="single-product"></a> کوسن مربعی طرح دار پر شده با الیاف مصنوعی</h2>
+                                    <a href="product_list" class="btn_3">امتحان کنید</a>
                                 </div>
                             </div>
                         </div>
@@ -59,8 +59,8 @@
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
                                     <h5>شروع قیمت از 50000 تومان</h5>
-                                    <h2> <a href="single-product.html">کوسن مربعی پر شده با الیاف مصنوعی</a> </h2>
-                                    <a href="product_list.html" class="btn_3">امتحان کنید</a>
+                                    <h2> <a href="single-product">کوسن مربعی پر شده با الیاف مصنوعی</a> </h2>
+                                    <a href="product_list" class="btn_3">امتحان کنید</a>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@
                             <div class="col-lg-5 col-sm-6">
                                 <div class="single_product_content">
                                     <h5>شروع قیمت از 50000 تومان</h5>
-                                    <h2> <a href="single-product.html">فوم قابل استفاده در بالش</a> </h2>
-                                    <a href="product_list.html" class="btn_3">امتحان کنید</a>
+                                    <h2> <a href="single-product">فوم قابل استفاده در بالش</a> </h2>
+                                    <a href="product_list" class="btn_3">امتحان کنید</a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                         <div class="single_product_item_thumb">
                             <img src="img/tranding_item/tranding_item_1.png" alt="#" class="img-fluid">
                         </div>
-                        <h3> <a href="single-product.html">بالش دور گردنی مخصوص مسافرت
+                        <h3> <a href="single-product">بالش دور گردنی مخصوص مسافرت
                         </a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
@@ -113,35 +113,35 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="img/tranding_item/tranding_item_2.png" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">بالشتک های طبی از جنس فوم</a> </h3>
+                        <h3> <a href="single-product">بالشتک های طبی از جنس فوم</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="img/tranding_item/tranding_item_3.png" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">بالش های طبی از جنس فوم و کتان</a> </h3>
+                        <h3> <a href="single-product">بالش های طبی از جنس فوم و کتان</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="img/tranding_item/tranding_item_4.png" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html"></a> بالش دور گردنی مخصوص مسافرت</h3>
+                        <h3> <a href="single-product"></a> بالش دور گردنی مخصوص مسافرت</h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="img/tranding_item/tranding_item_5.png" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">فوم و کتان مخصوص بالش های طبی</a> </h3>
+                        <h3> <a href="single-product">فوم و کتان مخصوص بالش های طبی</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_product_item">
                         <img src="img/tranding_item/tranding_item_6.png" alt="#" class="img-fluid">
-                        <h3> <a href="single-product.html">بالش دور گردنی طبی مخصوص مسافرت</a> </h3>
+                        <h3> <a href="single-product">بالش دور گردنی طبی مخصوص مسافرت</a> </h3>
                         <p>شروع قیمت از 20000 تومان</p>
                     </div>
                 </div>

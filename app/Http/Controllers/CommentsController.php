@@ -49,7 +49,7 @@ class CommentsController extends Controller
 
         if($fileimage){
             $imagename=$fileimage->getClientOriginalName();
-            ??????;
+            
         }
     }
 

@@ -6,15 +6,15 @@
                     <div class="col-lg-8">
                         <div class="footer_menu">
                             <div class="footer_logo">
-                                <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                                <a href="/"><img src="img/logo.png" alt="#"></a>
                             </div>
                             <div class="footer_menu_item">
-                                <a href="index.html">صفحه اصلی</a>
+                                <a href="/">صفحه اصلی</a>
 
-                                <a href="product_list.html">محصولات</a>
+                                <a href="product_list">محصولات</a>
                                 <a href="#">صفحات</a>
-                                <a href="blog.html">وبلاگ</a>
-                                <a href="contact.html">تماس با ما</a>
+                                <a href="blog">وبلاگ</a>
+                                <a href="contact">تماس با ما</a>
                             </div>
                         </div>
                     </div>
